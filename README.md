@@ -8,10 +8,17 @@ Sí... I no. Si creus que tens un problema que està més ben escrit o que s'ent
 
 ## Ús i raó de l'existència del repositori
 
-Aquest repositori està pensat per complementar l'aprenentatge, no està pensat per substituïr res. També per reforçar l'estudi des de casa ara que la presencialitat està en dubte. És part del projecte de la "Comi Apunts" de la Delegació d'Estudiants de la FME.
+Aquest repositori està pensat per complementar l'aprenentatge, no està pensat per substituïr res. També per reforçar l'estudi des de casa ara que la presencialitat està en dubte. És part del projecte de la ["Comi Apunts"](https://dafme.upc.edu/ca/apunts) de la Delegació d'Estudiants de la FME.
 
 ## Agraïments
 
 Voldríem agraïr a les següents persones per col·laborar amb la iniciativa:
 - Ferran Hernandez Caralt
 - Tomàs Gaeda Alcaide
+
+## Altres repositoris
+
+A continuació deixem un llistat d'altres repositoris que hem trobat d'utilitat i on podríeu trobar versions alternatives dels problemes.
+
+- Repositori per l'assignatura de [Programació I (PRO1)](https://github.com/dumitrux/PRO1-jutge-FIB) de la FIB
+- Repositori per l'assignatura de [Algorísmia i Programació II (AP2)](https://github.com/TomasGadea/Jutge-AP2)) del GCED
