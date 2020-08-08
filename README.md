@@ -21,4 +21,4 @@ Voldríem agraïr a les següents persones per col·laborar amb la iniciativa:
 A continuació deixem un llistat d'altres repositoris que hem trobat d'utilitat i on podríeu trobar versions alternatives dels problemes.
 
 - Repositori per l'assignatura de [Programació I (PRO1)](https://github.com/dumitrux/PRO1-jutge-FIB) de la FIB
-- Repositori per l'assignatura de [Algorísmia i Programació II (AP2)](https://github.com/TomasGadea/Jutge-AP2)) del GCED
+- Repositori per l'assignatura de [Algorísmia i Programació II (AP2)](https://github.com/TomasGadea/Jutge-AP2) del GCED
