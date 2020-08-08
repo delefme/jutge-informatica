@@ -14,7 +14,7 @@ Aquest repositori està pensat per complementar l'aprenentatge, no està pensat 
 
 Voldríem agraïr a les següents persones per col·laborar amb la iniciativa:
 - Ferran Hernandez Caralt
-- Tomàs Gaeda Alcaide
+- Tomás Gadea Alcaide
 
 ## Altres repositoris
 
