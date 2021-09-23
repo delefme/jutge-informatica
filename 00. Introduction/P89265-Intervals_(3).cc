@@ -1,39 +1,30 @@
 #include <iostream>
+
 using namespace std;
 
-int main() {
-	int a, b, c, d;
-	cin >> a >> b >> c >> d;
-	if ((a == c and d == b)) {
-		cout << "= , ";
-		if ((a < c and b < c) or (c < a and d < a)) cout << "[]" << endl;
-		else if ((a >= c and b <= d)) cout << "[" << a << "," << b << "]" << endl;
-		else if ((c >= a and d <= b)) cout << "[" << c << "," << d << "]" << endl;
-		else if ((a >= c and d <= b)) cout << "[" << a << "," << d << "]" << endl;
-		else if ((a <= c and b <= d)) cout << "[" << c << "," << b << "]" << endl;
-	}
-	else if ((a >= c and b <= d)) {
-		cout << "1 , ";
-		if ((a < c and b < c) or (c < a and d < a)) cout << "[]" << endl;
-		else if ((a >= c and b <= d)) cout << "[" << a << "," << b << "]" << endl;
-		else if ((c >= a and d <= b)) cout << "[" << c << "," << d << "]" << endl;
-		else if ((a >= c and d <= b)) cout << "[" << a << "," << d << "]" << endl;
-		else if ((a <= c and b <= d)) cout << "[" << c << "," << b << "]" << endl;
-	}
-	else if ((c >= a and d <= b)) {
-		cout << "2 , ";
-		if ((a < c and b < c) or (c < a and d < a)) cout << "[]" << endl;
-		else if ((a >= c and b <= d)) cout << "[" << a << "," << b << "]" << endl;
-		else if ((c >= a and d <= b)) cout << "[" << c << "," << d << "]" << endl;
-		else if ((a >= c and d <= b)) cout << "[" << a << "," << d << "]" << endl;
-		else if ((a <= c and b <= d)) cout << "[" << c << "," << b << "]" << endl;
-	}
-	else {
-		cout << "? , ";
-		if ((a < c and b < c) or (c < a and d < a)) cout << "[]" << endl;
-		else if ((a >= c and b <= d)) cout << "[" << a << "," << b << "]" << endl;
-		else if ((c >= a and d <= b)) cout << "[" << c << "," << d << "]" << endl;
-		else if ((a >= c and d <= b)) cout << "[" << a << "," << d << "]" << endl;
-		else if ((a <= c and b <= d)) cout << "[" << c << "," << b << "]" << endl;
-	}
+int main(){
+    int a1, b1, a2, b2;
+    cin >> a1 >> b1 >> a2 >> b2;
+
+    //son iguales si los extremos son iguales
+    if(a1 == a2 and b1 == b2)  cout << "= , ";
+    //esta uno incluido en el otro cuando uno de los dos tiene
+    //el minimo mas pequeño y el maximo mas grande
+    else if(a1<=a2 and b1>=b2) cout << "2 , ";
+    else if(a1>=a2 and b1<=b2) cout << "1 , ";
+    else cout << "? , ";
+
+    //calculamos los limites del intervalo interseccion
+    int x,y;
+    //el izquierdo es el maximo de los limites izquierdos
+    if(a1>a2) x = a1;
+    else x = a2;
+    //el derecho es el minimo de los limites derechos
+    if(b1<b2) y = b1;
+    else y = b2;
+
+    //comprobamos que el intervalo no sea vacio viendo si el extremo
+    //izquierdo esta a la izquierda del derecho
+    if(x<=y) cout << "[" << a << "," << b << "]" << endl;
+    else cout << "[]" << endl;
 }
